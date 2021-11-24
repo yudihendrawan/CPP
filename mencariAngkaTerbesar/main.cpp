@@ -3,7 +3,7 @@ using namespace std;
 
 int main (){
 
-    int arr [100], angka, hasil, i;
+    int arr [100], angka, max, min, i;
 
     cout << "Masukkan ukuran max[100]: ";
     cin >> angka;
@@ -13,15 +13,21 @@ int main (){
 
         cout << "Elemen array ke- " << i + 1 << " : ";
         cin >> arr [i];
-    hasil = arr [0];
+    max = arr [0];
+    min = arr[1];
     }
     for (i = 1; i < angka; i++){
-        if(hasil < arr[i])
-            hasil = arr[i];
+        if(max < arr[i]){
+            max = arr[i];
+        }
+        
+        else if(min > arr[i]){
+            min = arr[i];
+        }
     }
 
-    cout << "\nAngka terbesar nya adalah : " << hasil << endl;
-
+    cout << "\nAngka terbesarnya adalah : " << max << endl;
+    cout << "Angka Terkecilnya adalah :  " << min << endl;
 
     return 0;
 }
