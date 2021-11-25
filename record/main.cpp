@@ -18,15 +18,15 @@ int main(){
     
     for (i = 1; i <= jumlah; i++){
         cout << "Nama pelanggan toko     : ";
-        cin >> data.nama[i],sizeof(data.nama);
+        cin >> data.nama[i];
         cout << "Alamat pelanggan toko   : ";
-        cin >> data.alamat[i],sizeof(data.alamat);
+        cin >> data.alamat[i];
         cout << "Umur pelanggan toko     : ";
         cin >> data.umur[i];
         cout << "Jenis kelamin pelanggan : ";
         cin >> data.kelamin[i];
         cout << "No Telp pelanggan       : ";
-        cin >> data.telp[i],sizeof(data.telp);
+        cin >> data.telp[i];
     }
     for (i = 1; 1 <= jumlah; i++){
         cout << "------------------------------------" << endl;
@@ -38,4 +38,5 @@ int main(){
         cout << "No. Telp                : " << data.telp[i] << endl;
 
     }
+    return 0;
 }

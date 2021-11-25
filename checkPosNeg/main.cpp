@@ -5,7 +5,7 @@ int main(){
 
     int angka;
 
-    cout << "Masukkan anka yang akan di cek: ";
+    cout << "Masukkan angka yang akan di cek: ";
     cin >> angka;
 
     if(angka >= 0){
