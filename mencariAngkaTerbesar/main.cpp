@@ -25,8 +25,15 @@ int main (){
             min = arr[i];
         }
     }
+<<<<<<< HEAD
     cout << "\nAngka terbesarnya adalah : " << max << endl;
     cout << "Angka Terkecilnya adalah :  " << min << endl;
     
+=======
+
+    cout << "\nAngka terbesarnya adalah : " << max << endl;
+    cout << "Angka Terkecilnya adalah :  " << min << endl;
+
+>>>>>>> 195316ac0a77d728f545767c07cee97b09fe9641
     return 0;
 }
